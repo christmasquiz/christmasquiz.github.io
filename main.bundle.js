@@ -18013,6 +18013,27 @@ var RoundInfo = (function () {
                 { name: "ten", answer: ["the wolf of wall street", "wolf of wall street"], hint: "Rijk worden met andermans geld", solved: false }
             ]
         });
+        this.imageRounds.set("steden", {
+            winnerText: "Van de Alpen tot Zimbabwe, jij vindt overal de weg terug naar huis!",
+            omschrijving: "Tien bekende steden uit binnen- en buitenland verbergen zich achter mysterieuze foto's",
+            questions: [
+                { name: "one", answer: ["dinant"], hint: "zoek het in Wallonië", solved: false },
+                { name: "two", answer: ["parijs"], hint: "Ze zijn met twee, ze zijn een stel, een koppel, een ...", solved: false },
+                { name: "three", answer: ["den haag"], hint: "Onpopulaire plek voor massamoordenaars en dictators", solved: false },
+                { name: "four", answer: ["bonn", "bon"], hint: "pas mal", solved: false },
+                { name: "five", answer: ["lissabon", "lisabon"], hint: "In deze stad ligt Vasco da Gama begraven", solved: false },
+                { name: "six", answer: ["ankara"], hint: "De hoofdstad", solved: false },
+                {
+                    name: "seven",
+                    answer: ["port-au-prince", "port-o-prince", "portoprince", "port au prince"],
+                    hint: "Dat is de vlag van Haïti",
+                    solved: false
+                },
+                { name: "eight", answer: ["oxford"], hint: "Ze hebben een bekende unief", solved: false },
+                { name: "nine", answer: ["stalingrad", "stalinrad"], hint: "A single death is a tragedy; a million deaths is a statistic.", solved: false },
+                { name: "ten", answer: ["las vegas", "vegas"], hint: "Ik zet 2000 dollar op rood", solved: false }
+            ]
+        });
     };
     RoundInfo.prototype.initializeClassicRounds = function () {
         this.classicRounds.set("jaarretrospectief", {
@@ -18091,6 +18112,78 @@ var RoundInfo = (function () {
                     answer: ["1 jaar", "een jaar", "één jaar", "twaalf maanden", "twaalf maand", "12 maand", "twaalf maanden"],
                     solved: false
                 }
+            ]
+        });
+        this.classicRounds.set("vijftig", {
+            winnerText: "Op naar de volgende 50 jaar",
+            omschrijving: "Algemene kennis vragen over de voorbije vijftig jaar",
+            questions: [
+                {
+                    titel: "1967",
+                    vraag: "Welke acteur die later president van de VS zou worden, wordt ingewijd als gouverneur van Californië? (achternaam)",
+                    answer: ["raegan", "regan"],
+                    solved: false
+                },
+                {
+                    titel: "1972",
+                    vraag: "Het Britse leger doodt 14 ongewapende burgers in Noord-Ierland. Welke naam kreeg deze gebeurtenis?",
+                    answer: ["bloody sunday"],
+                    solved: false
+                },
+                {
+                    titel: "1977",
+                    vraag: "George Lucas breekt alle box-office records met zijn nieuwste film. Hoe heet deze?",
+                    answer: ["Star Wars: A New Hope", "star wars", "star wars a new hope", "a new hope"],
+                    solved: false
+                },
+                {
+                    titel: "1982",
+                    vraag: "Er breekt een tien weken durende oorlog uit tussen Groot-Brittanië en Argentinië. Rond welke eilanden speelt deze oorlog zich af?",
+                    answer: ["falkland", "falkland eilanden"],
+                    solved: false
+                },
+                {
+                    titel: "1987",
+                    vraag: "Wie wordt het eerste vrouwelijke lid van de Rock and Roll Hall of Fame? Je kent haar van nummers als 'Respect' en 'Faith' (achternaam)",
+                    answer: ["franklin"],
+                    solved: false
+                },
+                {
+                    titel: "1992",
+                    vraag: "Steffi Graf wint Wimbledon bij het vrouwentennis. Wie won bij de mannen? (achternaam)",
+                    answer: ["agassi", "agasi", "aggassi", 'aggassi'],
+                    solved: false
+                },
+                {
+                    titel: "1997",
+                    vraag: "De avonturen van Ash Ketchum, Misty en Brock beginnen. Over welke tv-serie die nog steeds loopt (weliswaar zonder Misty en Brock) gaat het?",
+                    answer: ["pokémon", "pokemon"],
+                    solved: false
+                },
+                {
+                    titel: "2002",
+                    vraag: "De auteur van onder meer Pipi Langkous sterft. Wat is de achternaam van deze Zweedse?",
+                    answer: ["lindgren", "lintgren"],
+                    solved: false
+                },
+                {
+                    titel: "2007",
+                    vraag: "Wie wint de nobelprijs voor de vrede omwille van zijn werk rond klimaatopwarming? (achternaam)",
+                    answer: ["gore"],
+                    solved: false
+                },
+                {
+                    titel: "2012",
+                    vraag: "Lonesome George sterft op 102-jarige leeftijd waardoor zijn soort uitsterft. Wat was Lonesome George?",
+                    answer: ["schildpad"],
+                    solved: false
+                },
+                {
+                    titel: "2017",
+                    vraag: "Wie haalde Grammy's binnen voor 'Record of the Year', 'Album of the Year', 'Song of the Year', 'Best Pop Solo' en 'Best Pop Vocal album'?",
+                    answer: ["adele"],
+                    solved: false
+                },
             ]
         });
     };
