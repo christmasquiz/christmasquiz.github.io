@@ -58353,7 +58353,7 @@ module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div cla
 /* 624 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"list-group\">\n  <div class=\"list-group-item\" *ngFor=\"let vraag of vragen; let ind = index;\" [style.background-color]=\"backgroundColor(ind)\" [style.color]=\"textColor(ind)\">\n    <h4 class=\"list-group-item-heading\">{{vraag.titel}}</h4>\n    <p class=\"list-group-item-text\">{{vraag.vraag}}</p>\n    <input *ngIf=\"vragen[ind].solved === false\" type=\"text\" class=\"form-control\" placeholder=\"antwoord\" [(ngModel)]=\"guesses[ind]\" style=\"color:white\">\n    <button *ngIf=\"vragen[ind].solved === false\" class=\"btn btn-default\" type=\"button\" (click)=\"checkAnswer(ind)\">Antwoord</button>\n    <h3 *ngIf=\"vragen[ind].solved === true\">{{vraag.answer[0]}}</h3>\n  </div>\n</div>\n"
+module.exports = "<div class=\"list-group\">\n  <div class=\"list-group-item\" *ngFor=\"let vraag of vragen; let ind = index;\" [style.background-color]=\"backgroundColor(ind)\" [style.color]=\"textColor(ind)\">\n    <h4 class=\"list-group-item-heading\">{{vraag.titel}}</h4>\n    <p class=\"list-group-item-text\">{{vraag.vraag}}</p>\n    <input *ngIf=\"vragen[ind].solved === false\" type=\"text\" class=\"form-control\" placeholder=\"antwoord\" [(ngModel)]=\"guesses[ind]\">\n    <button *ngIf=\"vragen[ind].solved === false\" class=\"btn btn-default\" type=\"button\" (click)=\"checkAnswer(ind)\">Antwoord</button>\n    <h3 *ngIf=\"vragen[ind].solved === true\">{{vraag.answer[0]}}</h3>\n  </div>\n</div>\n"
 
 /***/ },
 /* 625 */
